@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body { background-image: url(https://img.freepik.com/vector-gratis/controles-videojuegos-estilo-neon-pared-ladrillo_24908-58916.jpg?size=338&ext=jpg&ga=GA1.1.1826414947.1699401600&semt=ais);
+box-sizing: content-box;
+width: 95%;
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.header-container { 
+    background-color: rgb(9, 33, 48);
+ text-align: center;
+ text-shadow: 7px 4px 5px lightseagreen;
+ border-radius: 40px;
+ font-weight: bolder;
+ font-size: 20px;
+
+}
+
+h1 {color: #ffffff;
+    text-shadow: 7px 4px 5px lightseagreen;}
+
+h2 { padding-left: 10px;
+color: whitesmoke;
+text-align: center;
+text-shadow: 7px 4px 5px lightseagreen;}
+
+h3 { color: rgb(9, 33, 48);
+    text-align: left;}
+    
+p { width: 96%;
+margin-left: auto;
+margin-right: auto;
+}
+
+button { border: none;
+margin-bottom: 20px;
+background-color: rgb(86, 129, 209);
+height: 30px;
+color: whitesmoke;
+margin-left: 12px;
+border-radius: 10px;}
+
+section { 
+background-color: rgb(9, 33, 48);
+border-radius: 70px;
+margin-left: 50px;
+}
+
+ section div { width: 96%;
+margin: auto; 
+background-color: rgb(228, 228, 175);
+color: black;
+border-radius: 70px;}
+
+ section h2 { width: 96%;
+margin-left: auto;  margin-right: auto;}
+
+div { background-color: rgb(9, 33, 48);
+color: whitesmoke;
+text-align: center;
+border-radius: 40px;
+}
+
+.container-galery {
+display: flex;
+flex-flow: wrap;
+justify-content: center;
+margin: auto;}
+
+.galery-images {
+height: 150px;
+border: 8px solid rgb(33, 129, 156);
+margin: 6px;}
+
+.image {
+max-width: 100%;
+width: 96%;
+margin: auto;
+border-radius: 30px;}
+    
+.game-info {display: flex;
+flex-direction: column;}
+
+.game-title {
+    margin: 20px;
+    border-bottom: solid 2px rgb(9, 33, 48);
+}
+
+.padding-tb {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-shadow: 7px 4px 5px lightseagreen;}
